@@ -1,0 +1,21 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Compiled Go binaries
+backend/pomotodo-backend
+backend/pomotodo-backend.exe
+backend/app
+backend/app.exe
+backend/*.test
+backend/coverage.out
+
+# Logs
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
