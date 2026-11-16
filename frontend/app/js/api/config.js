@@ -1,5 +1,5 @@
 const API_CONFIG = {
-    baseUrl: 'http://127.0.0.1:3002/api',
+    baseUrl: 'https://pomotodo-backend.onrender.com/api',
     timeout: 10000,
     endpoints: {
         login: '/login',
